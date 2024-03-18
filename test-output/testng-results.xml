@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-16T11:28:55 IST" name="Suite" finished-at="2024-03-16T11:29:28 IST" duration-ms="33287">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorvalidationTest.producterrorvalidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" name="producterrorvalidation" class="rahulshettyacademy.Tests.ErrorvalidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchaseorder">
+        <method signature="StandaloneTest2.submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" name="submitorder" class="rahulshettyacademy.Tests.StandaloneTest2"/>
+      </group> <!-- Purchaseorder -->
+    </groups>
+    <test started-at="2024-03-16T11:28:55 IST" name="Error ValidationTest" finished-at="2024-03-16T11:29:17 IST" duration-ms="21702">
+      <class name="rahulshettyacademy.Tests.ErrorvalidationTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:28:55 IST" name="launchapplication" finished-at="2024-03-16T11:29:03 IST" duration-ms="7714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="Loginerrorvalidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:29:03 IST" name="Loginerrorvalidation" finished-at="2024-03-16T11:29:05 IST" duration-ms="1693" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at rahulshettyacademy.Tests.ErrorvalidationTest.Loginerrorvalidation(ErrorvalidationTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginerrorvalidation -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:29:05 IST" name="browserclose" finished-at="2024-03-16T11:29:06 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:29:06 IST" name="launchapplication" finished-at="2024-03-16T11:29:09 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="producterrorvalidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:29:09 IST" name="producterrorvalidation" finished-at="2024-03-16T11:29:16 IST" duration-ms="6972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidation -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:rahulshettyacademy.Tests.ErrorvalidationTest@40238dd0]" started-at="2024-03-16T11:29:16 IST" name="browserclose" finished-at="2024-03-16T11:29:17 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- rahulshettyacademy.Tests.ErrorvalidationTest -->
+    </test> <!-- Error ValidationTest -->
+    <test started-at="2024-03-16T11:28:55 IST" name="Stand Alone Test" finished-at="2024-03-16T11:29:28 IST" duration-ms="33287">
+      <class name="rahulshettyacademy.Tests.StandaloneTest2">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:28:55 IST" name="launchapplication" finished-at="2024-03-16T11:29:01 IST" duration-ms="5971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:01 IST" name="submitorder" data-provider="getData" finished-at="2024-03-16T11:29:12 IST" duration-ms="10806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hnchethan95@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chethan78.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:12 IST" name="browserclose" finished-at="2024-03-16T11:29:12 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:12 IST" name="launchapplication" finished-at="2024-03-16T11:29:14 IST" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitorder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:14 IST" name="submitorder" data-provider="getData" finished-at="2024-03-16T11:29:24 IST" duration-ms="9691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshika@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamking@000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IPHONE 13 PRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:24 IST" name="browserclose" finished-at="2024-03-16T11:29:24 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:24 IST" name="launchapplication" finished-at="2024-03-16T11:29:27 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="orderconfirmation()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:27 IST" name="orderconfirmation" finished-at="2024-03-16T11:29:28 IST" depends-on-methods="rahulshettyacademy.Tests.StandaloneTest2.submitorder" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderconfirmation -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:rahulshettyacademy.Tests.StandaloneTest2@3f9342d4]" started-at="2024-03-16T11:29:28 IST" name="browserclose" finished-at="2024-03-16T11:29:28 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- rahulshettyacademy.Tests.StandaloneTest2 -->
+    </test> <!-- Stand Alone Test -->
+  </suite> <!-- Suite -->
+</testng-results>
